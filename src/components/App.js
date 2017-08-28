@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import marked from 'marked';
 import '../style/App.css';
 import Markdown from './markdown'
 import Previewer from './previewer'
@@ -14,7 +13,7 @@ class App extends Component {
     };
 
   }
-  
+
    handleInput = (e) => {
      this.setState({ inputText: e.target.value });
    }
