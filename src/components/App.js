@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../style/App.css';
 import Markdown from './markdown'
 import Previewer from './previewer'
 
@@ -20,7 +19,7 @@ class App extends Component {
 
   render() {
     return (
-        <div className='container'>
+        <div>
             <Markdown handleInput = {this.handleInput} inputText = {this.state.inputText} />
             <Previewer inputText = {this.state.inputText}/>
        </div>
