@@ -1,5 +1,3 @@
- This is the Markdown Preview Project of FCC.
-
  ## Markdown Previewer ##
 
 The Markdown Previewer was built according to: https://www.freecodecamp.org/challenges/build-a-markdown-previewer
