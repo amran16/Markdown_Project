@@ -19,7 +19,7 @@ class App extends Component {
 
   render() {
     return (
-        <div>
+        <div className='container'>
             <Markdown handleInput = {this.handleInput} inputText = {this.state.inputText} />
             <Previewer inputText = {this.state.inputText}/>
        </div>

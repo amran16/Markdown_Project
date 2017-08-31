@@ -3,13 +3,15 @@ import React from 'react';
 const Markdown = (props) => {
 
     return (
-      <div className='col-md-6'>
+      <div>
        <h3 className='headers'>Markdown</h3>
+       <form>
         <textarea
           className = "input"
           value = {props.inputText}
           onChange = {props.handleInput}>
         </textarea>
+       </form>
       </div>
     );
 

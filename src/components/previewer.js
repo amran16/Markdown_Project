@@ -3,7 +3,7 @@ import marked from 'marked';
 
 const Previewer = (props) => {
     return (
-      <div className='col-md-6'>
+      <div>
         <h3 className='headers'>Previewer</h3>
          <div className="output" dangerouslySetInnerHTML={{__html: marked(props.inputText)}}></div>
       </div>
